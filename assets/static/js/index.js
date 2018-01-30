@@ -32,6 +32,7 @@ building.style.zIndex = 11;
 building.appendChild(init(max));
 
 building.querySelector('.item-1-1').classList.add('tiger');
+building.querySelector('.item-18-1').classList.add('ox');
 
 var handle = document.createElement('div');
 handle.classList.add('handle');

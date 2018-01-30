@@ -69,6 +69,13 @@
   background-color: #fff;
   background-image: url(../img/user/tiger.png);
 }
+.building .item.ox {
+  background-color: #fff;
+  background-image: url(../img/user/ox.png);
+}
+.building .item.trans-y {
+  transform: rotateY(180deg);
+}
 
 .handle .item.selector {
   background-color: rgba(221, 221, 221, .2);
