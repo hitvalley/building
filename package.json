@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/hitvalley/building#readme",
   "dependencies": {
-    "valley-server": "^1.0.20"
+    "valley-server": "^1.0.21"
   }
 }
