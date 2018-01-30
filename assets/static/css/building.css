@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.item {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 38px 38px;
+  background-position: center center;
+}
+.item:after {
+  content: " ";
+  box-sizing: border-box;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+.background {
+  background: #fff;
+}
+.background .item:after {
+  border: 2px dashed #ccc;
+  border-radius: 4px;
+}
+
+.building .item.house:after {
+  border: none;
+  background-size: 30px 30px;
+  background-position: center center;
+}
+.building .item.house-1:after {
+  background-color: #fff;
+  background-image: url(../img/house/house-1.svg);
+}
+.building .item.house-2:after {
+  background-color: #fff;
+  background-image: url(../img/house/house-2.svg);
+}
+.building .item.house-3:after {
+  background-color: #fff;
+  background-image: url(../img/house/house-3.svg);
+}
+.building .item.house-4:after {
+  background-color: #fff;
+  background-image: url(../img/house/house-4.svg);
+}
+.building .item.house-5:after {
+  background-color: #fff;
+  background-image: url(../img/house/house-5.svg);
+}
+.building .item.house-6:after {
+  background-color: #fff;
+  background-image: url(../img/house/house-6.svg);
+}
+
+.building .road {
+  background-color: #ccc;
+}
+
+.building .item.tiger {
+  background-color: #fff;
+  background-image: url(../img/user/tiger.png);
+}
+
+.handle .item.selector {
+  background-color: rgba(221, 221, 221, .2);
+}
